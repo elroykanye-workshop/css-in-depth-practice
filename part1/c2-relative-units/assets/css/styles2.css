@@ -1,0 +1,18 @@
+body {
+    font-size: 16px;
+}
+
+.slogan {
+    font-size: 1.2em; 
+    /* calculate to 1.2 time the element's inherited font size */
+    padding: 1.2em;
+    background-color: slategray;
+}
+
+ul {
+    font-size: 0.9em;
+}
+
+ul ul {
+    font-size: 1em;
+}

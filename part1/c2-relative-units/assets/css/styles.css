@@ -1,0 +1,31 @@
+/*
+    Ems are a measure used in typography referring to a specified font size.
+    In CSS, 1 em means the font size of the current element.
+*/
+
+.padded {
+    padding: 2em;
+    font-size: 16px;
+    /*  the padding is multiplied by the font size to get 
+        an absolute value of 32 in this case which is applied
+        to the padding.
+    */
+}
+
+.box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightslategray;
+}
+
+/*
+    Different font sizes below which will determine the element's
+    em size.
+*/
+.box-small {
+    font-size: 12px;
+}
+
+.box-large {
+    font-size: 18px;
+}
